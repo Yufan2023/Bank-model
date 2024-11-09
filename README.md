@@ -65,7 +65,7 @@ pip install -r requirements.txt
    git clone https://github.com/Yufan2023/stock-prediction-project.git
    cd stock-prediction-project
    ```
-2. Navigate to the src folder: Make sure to run scripts from the src directory to ensure proper pathing for data loading and processing.
+2. Navigate to the <h4><u>src<h4><u> folder: Make sure to run scripts from the src directory to ensure proper pathing for data loading and processing.
 3. Run the main script: To train the model and evaluate its performance
    ```bash
    python src/main.py
