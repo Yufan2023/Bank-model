@@ -72,7 +72,7 @@ pip install -r requirements.txt
    ```
 4. Run future data collection: To collect and test with future data:
    ```bash
-   python src/collect_future_data.py
+   python src/tests/collect_future_data.py
    ```
 
 
