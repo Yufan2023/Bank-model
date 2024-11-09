@@ -35,11 +35,11 @@ stock-prediction-project/
 └── README.md                     # Project overview and setup instructions
 
 ## Features
-Historical Stock Data: Downloaded using yfinance for multiple banks and indices. \n
-Economic Indicators: Includes data such as interest rates and volatility indices. \n
-Sentiment Analysis: Utilizes the vaderSentiment library for extracting sentiment scores from news headlines. \n
-Technical Indicators: Computes 20-day and 200-day moving averages. \n
-Future Data Collection: Collects future data to compare predictions against real values. \n
+Historical Stock Data: Downloaded using yfinance for multiple banks and indices. <br>
+Economic Indicators: Includes data such as interest rates and volatility indices. <br>
+Sentiment Analysis: Utilizes the vaderSentiment library for extracting sentiment scores from news headlines. <br>
+Technical Indicators: Computes 20-day and 200-day moving averages. <br>
+Future Data Collection: Collects future data to compare predictions against real values. <br>
 
 
 
