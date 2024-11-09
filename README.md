@@ -4,7 +4,7 @@
 ## Project Overview
 This project aims to predict the stock price of TD Bank using a Long Short-Term Memory (LSTM) model. The model incorporates historical stock data, economic indicators, sentiment analysis from political news, and technical indicators. The project also provides the ability to evaluate predictions using future data as it becomes available.
 
-Project Structure
+## Project Structure
 
 stock-prediction-project/
 ├── src/
@@ -33,6 +33,18 @@ stock-prediction-project/
 ├── requirements.txt              # List of Python dependencies
 ├── .gitignore                    # Git ignore file for excluding certain files/folders
 └── README.md                     # Project overview and setup instructions
+
+## Features
+Historical Stock Data: Downloaded using yfinance for multiple banks and indices.
+Economic Indicators: Includes data such as interest rates and volatility indices.
+Sentiment Analysis: Utilizes the vaderSentiment library for extracting sentiment scores from news headlines.
+Technical Indicators: Computes 20-day and 200-day moving averages.
+Future Data Collection: Collects future data to compare predictions against real values.
+
+
+
+
+
 
 
 
