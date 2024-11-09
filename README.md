@@ -56,14 +56,27 @@ Ensure you have Python 3.7+ installed and the following libraries:
 Install dependencies with:
 ```bash
 pip install -r requirements.txt
+```
 
 ## Setup
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/stock-prediction-project.git
+   git clone https://github.com/Yufan2023/stock-prediction-project.git
    cd stock-prediction-project
    ```
+2. Navigate to the src folder: Make sure to run scripts from the src directory to ensure proper pathing for data loading and processing.
+3. Run the main script: To train the model and evaluate its performance
+   ```bash
+   python src/main.py
+   ```
+4. Run future data collection: To collect and test with future data:
+   ```bash
+   python src/collect_future_data.py
+   ```
+
+
+   
 
 
 
