@@ -62,7 +62,7 @@ pip install -r requirements.txt
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/Yufan2023/stock-prediction-project.git
+   git clone https://github.com/Yufan2023/Bank-model.git
    cd stock-prediction-project
    ```
 2. Navigate to the `src` folder: Make sure to run scripts from the `src` directory to ensure proper pathing for data loading and processing.
