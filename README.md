@@ -59,6 +59,17 @@ pip install -r requirements.txt
 python
 Copy code
 
+### Explanation:
+- **`## Getting Started`**: Creates a level 2 heading.
+- **`---`**: Adds a horizontal line below the heading to make it stand out.
+- **Bullet Points (`*`)**: Used to list the prerequisites as items.
+- **Triple backticks (` ```bash `)**: Used to format the command line command as a code block.
+
+### How to Use This:
+Copy and paste the code above into your `README.md` file. This format will ensure that the "Getting Started" section looks clean and professional with properly formatted bullet points and code blocks.
+
+Would you like to add any additional customization or sections below this?
+
 
 
 
