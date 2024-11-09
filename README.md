@@ -58,7 +58,7 @@ Install dependencies with:
 pip install -r requirements.txt
 python
 Copy code
-
+```bash
 ## Setup
 
 1. **Clone this repository**:
