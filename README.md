@@ -56,16 +56,14 @@ Ensure you have Python 3.7+ installed and the following libraries:
 Install dependencies with:
 ```bash
 pip install -r requirements.txt
-python
-Copy code
-```bash
+
 ## Setup
 
 1. **Clone this repository**:
    ```bash
    git clone https://github.com/YOUR_USERNAME/stock-prediction-project.git
    cd stock-prediction-project
-
+   ```
 
 
 
