@@ -41,6 +41,24 @@ Sentiment Analysis: Utilizes the vaderSentiment library for extracting sentiment
 Technical Indicators: Computes 20-day and 200-day moving averages. <br>
 Future Data Collection: Collects future data to compare predictions against real values. <br>
 
+## Prerequisites
+
+Ensure you have Python 3.7+ installed and the following libraries:
+
+* `numpy`
+* `pandas`
+* `yfinance`
+* `scikit-learn`
+* `tensorflow`
+* `matplotlib`
+* `vaderSentiment`
+
+Install dependencies with:
+```bash
+pip install -r requirements.txt
+python
+Copy code
+
 
 
 
