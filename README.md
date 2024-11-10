@@ -6,27 +6,58 @@ This project aims to predict the stock price of TD Bank using a Long Short-Term 
 
 ## Project Structure
 
-stock-prediction-project/ <br>
-├── src/ <br>
-│   ├── main.py                   # Main script to train and evaluate the model<br>
-│   ├── data_loader.py            # Code for downloading historical and future data<br>
-│   ├── preprocessing.py          # Data preprocessing and feature engineering logic<br>
-│   ├── model.py                  # Model creation, training, saving, and loading logic<br>
-│   ├── sentiment_analysis.py     # Code for performing sentiment analysis<br>
-│   ├── collect_future_data.py    # Script for collecting future data periodically<br>
-│   └── utils.py                  # Utility functions for plotting and evaluation<br>
-├── models/                       # Directory for saved trained models<br>
-│   └── lstm_model.h5             # Trained LSTM model file<br>
-├── results/                      # Output results, plots, and logs<br>
-├── tests/                        # Unit tests for code validation<br>
-│   ├── test_data_loader.py<br>
-│   ├── test_preprocessing.py<br>
-│   ├── test_model.py<br>
-│   ├── test_sentiment_analysis.py<br>
-│   └── test_collect_future_data.py<br>
-├── requirements.txt              # List of Python dependencies<br>
-├── .gitignore                    # Git ignore file for excluding certain files/folders<br>
-└── README.md                     # Project overview and setup instructions<br>
+src/
+
+This folder contains the core scripts essential for the project:
+
+main.py: The primary script responsible for training and evaluating the stock prediction model.
+
+data_loader.py: Handles the downloading of both historical and future stock data.
+
+preprocessing.py: Contains the logic for data preprocessing and feature engineering.
+
+model.py: Includes code for creating, training, saving, and loading the model.
+
+sentiment_analysis.py: Script dedicated to performing sentiment analysis.
+
+collect_future_data.py: Runs periodically to gather future data.
+
+utils.py: Consists of utility functions used for plotting and evaluating model performance.
+
+models/
+
+This directory stores the trained models. For example, the LSTM model is saved as lstm_model.h5.
+
+results/
+
+This folder is used to store output results, visual plots, and log files generated during the project.
+
+tests/
+
+Contains unit test scripts to validate the functionality of the code:
+
+test_data_loader.py: Tests for the data loading module.
+
+test_preprocessing.py: Tests related to data preprocessing.
+
+test_model.py: Verifies the model creation and training logic.
+
+test_sentiment_analysis.py: Ensures the sentiment analysis script is functioning correctly.
+
+test_collect_future_data.py: Checks the periodic data collection script.
+
+requirements.txt
+
+Lists all Python libraries and dependencies needed for the project.
+
+.gitignore
+
+Specifies files and folders to exclude from version control.
+
+README.md
+
+Provides an overview of the project, along with setup instructions and explanations for getting started.
+
 
 ## Features
 Historical Stock Data: Downloaded using yfinance for multiple banks and indices. <br>
