@@ -18,72 +18,26 @@ The model forecasts both historical trends and future stock prices while analyzi
 
 ## Project Structure
 
-src/
+The project is organized into several well-defined directories and files to ensure clarity and modularity. The ```data/``` folder contains raw or processed data files used for analysis and modeling, along with a README.md that explains how to obtain or use the dataset. The notebooks/ directory includes Jupyter Notebooks for each key step in the workflow: data_preprocessing.ipynb for data cleaning and feature engineering, model_training.ipynb for training the LSTM model, and predictions_and_visualization.ipynb for generating predictions and visualizations.
 
-This folder contains the core scripts essential for the project:
+The src/ directory houses Python scripts for modular functionality. It includes preprocess_data.py for preprocessing tasks, train_model.py for model training, and predict_future.py for making predictions and plotting results. The images/ folder stores visual assets, such as plots of actual vs. predicted prices and future forecasts, for documentation and presentation purposes.
 
-main.py: The primary script responsible for training and evaluating the stock prediction model.
-
-data_loader.py: Handles the downloading of both historical and future stock data.
-
-preprocessing.py: Contains the logic for data preprocessing and feature engineering.
-
-model.py: Includes code for creating, training, saving, and loading the model.
-
-sentiment_analysis.py: Script dedicated to performing sentiment analysis.
-
-collect_future_data.py: Runs periodically to gather future data.
-
-utils.py: Consists of utility functions used for plotting and evaluating model performance.
-
-models/
-
-This directory stores the trained models. For example, the LSTM model is saved as lstm_model.h5.
-
-results/
-
-This folder is used to store output results, visual plots, and log files generated during the project.
-
-tests/
-
-Contains unit test scripts to validate the functionality of the code:
-
-test_data_loader.py: Tests for the data loading module.
-
-test_preprocessing.py: Tests related to data preprocessing.
-
-test_model.py: Verifies the model creation and training logic.
-
-test_sentiment_analysis.py: Ensures the sentiment analysis script is functioning correctly.
-
-test_collect_future_data.py: Checks the periodic data collection script.
-
-requirements.txt
-
-Lists all Python libraries and dependencies needed for the project.
-
-.gitignore
-
-Specifies files and folders to exclude from version control.
-
-README.md
-
-Provides an overview of the project, along with setup instructions and explanations for getting started.
+At the root level, the README.md provides a comprehensive overview of the project, while requirements.txt lists the necessary Python dependencies. The .gitignore file specifies files and directories to exclude from version control. The main.py script serves as the entry point, combining all modules to execute the complete workflow. A LICENSE file is included to define the project's usage rights. This structure ensures the project is easy to navigate, reproducible, and extensible for future improvements.
 
 
 ## Installation and Usage
 1. Clone the Repository
    ```bash
-   git clone https://github.com/Yufan2023/Bank-model-with-LSTM.git
-   cd Bank-model-with-LSTM
+   git clone https://github.com/Yufan2023/Bank-model.git
+   cd Bank-model
    ```
 
 2. Set Up a Virtual Environment
-```bash
-python -m venv env
-source env/bin/activate   # On Windows: .\env\Scripts\activate
-pip install -r requirements.txt
-```
+   ```bash
+   python -m venv env
+   source env/bin/activate   # On Windows: .\env\Scripts\activate
+   pip install -r requirements.txt
+   ```
 
 3. Run the Project
    ```bash
