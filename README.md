@@ -4,6 +4,13 @@
 ## Project Overview
 This project predicts the stock prices of TD Bank using a Long Short-Term Memory (LSTM) model. It incorporates:
 
+## Features
+Multivariate Time Series Analysis: Uses historical stock and economic data.
+Sentiment Integration: Performs sentiment analysis using VADER on political news headlines.
+Event Indicators: Marks significant political events (e.g., elections, economic agreements).
+Deep Learning Model: Predicts historical trends and future stock prices using LSTM.
+Visualization: Displays actual vs. predicted prices and future forecasts.
+
 Historical stock data: Closing prices of major banks and financial sectors.
 Economic indicators: Interest rates, volatility index, and S&P 500.
 Political dynamics: Sentiment analysis of political news and event-based indicators.
