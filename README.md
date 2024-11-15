@@ -60,9 +60,20 @@ Ensure you have Python 3.7+ installed and the following libraries:
 Actual vs. Predicted Prices <br>
 This plot compares the model’s predicted prices with the actual stock prices during the test period.
 
+## Future Predictions
+This plot forecasts future TD Bank stock prices for the next 30 days using the trained model.
 
+## Technologies Used
+Python: Core programming language.
+TensorFlow/Keras: For LSTM model implementation.
+Yahoo Finance API: Fetching historical stock and economic data.
+VADER: Sentiment analysis for political news.
+Matplotlib: Visualizing results.
 
-   
+## Acknowledgments
+Yahoo Finance: For stock and economic data.
+VADER Sentiment Analysis: For political sentiment scoring.
+
 
 
 
