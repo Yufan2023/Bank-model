@@ -71,12 +71,24 @@ README.md
 Provides an overview of the project, along with setup instructions and explanations for getting started.
 
 
-## Features
-Historical Stock Data: Downloaded using yfinance for multiple banks and indices. <br>
-Economic Indicators: Includes data such as interest rates and volatility indices. <br>
-Sentiment Analysis: Utilizes the vaderSentiment library for extracting sentiment scores from news headlines. <br>
-Technical Indicators: Computes 20-day and 200-day moving averages. <br>
-Future Data Collection: Collects future data to compare predictions against real values. <br>
+## Installation and Usage
+1. Clone the Repository
+   ```bash
+   git clone https://github.com/Yufan2023/Bank-model-with-LSTM.git
+   cd Bank-model-with-LSTM
+   ```
+
+2. Set Up a Virtual Environment
+```bash
+python -m venv env
+source env/bin/activate   # On Windows: .\env\Scripts\activate
+pip install -r requirements.txt
+```
+
+3. Run the Project
+   ```bash
+   python main.py
+   ```
 
 ## Prerequisites
 
@@ -90,27 +102,10 @@ Ensure you have Python 3.7+ installed and the following libraries:
 * `matplotlib`
 * `vaderSentiment`
 
-Install dependencies with:
-```bash
-pip install -r requirements.txt
-```
+## Results
+Actual vs. Predicted Prices <br>
+This plot compares the model’s predicted prices with the actual stock prices during the test period.
 
-## Setup
-
-1. **Clone this repository**:
-   ```bash
-   git clone https://github.com/Yufan2023/Bank-model.git
-   cd stock-prediction-project
-   ```
-2. Navigate to the `src` folder: Make sure to run scripts from the `src` directory to ensure proper pathing for data loading and processing.
-3. Run the main script: To train the model and evaluate its performance
-   ```bash
-   python src/main.py
-   ```
-4. Run future data collection: To collect and test with future data:
-   ```bash
-   python tests/collect_future_data.py
-   ```
 
 
    
