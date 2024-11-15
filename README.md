@@ -2,7 +2,12 @@
 
 
 ## Project Overview
-This project aims to predict the stock price of TD Bank using a Long Short-Term Memory (LSTM) model. The model incorporates historical stock data, economic indicators, sentiment analysis from political news, and technical indicators. The project also provides the ability to evaluate predictions using future data as it becomes available.
+This project predicts the stock prices of TD Bank using a Long Short-Term Memory (LSTM) model. It incorporates:
+
+Historical stock data: Closing prices of major banks and financial sectors.
+Economic indicators: Interest rates, volatility index, and S&P 500.
+Political dynamics: Sentiment analysis of political news and event-based indicators.
+The model forecasts both historical trends and future stock prices while analyzing the impact of political and economic factors.
 
 ## Project Structure
 
